@@ -1,0 +1,109 @@
+/* estilo para tablets */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .servicos_lista {
+    margin: 0 auto;
+    padding-left: 60px;
+  }
+
+  .portfolio_lista_mobile {
+    display: none;
+  }
+
+  .contato {
+    margin-bottom: -120px;
+  }
+}
+
+/* estilo para smartphones */
+@media only screen and (max-width: 787px) {
+  .header_total {
+    position: relative;
+  }
+
+  .header_total img {
+    width: 40%;
+  }
+
+  .header_navegacao ul li {
+    margin: 5px;
+  }
+
+  .introducao {
+    height: 300px;
+    background: linear-gradient(to right, #000000cc, #1c1c1cba),
+      url("../img/capa-intro-mobile.jpg") no-repeat center;
+    margin-top: 0;
+    padding-top: 35px;
+  }
+
+  .call_to_action {
+    padding: 10px;
+  }
+
+  .sobre {
+    margin-top: 0;
+    height: 950px;
+  }
+
+  .sobre_mim {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .sobre p {
+    font-size: 15px;
+  }
+
+  .quote {
+    padding-top: 50px;
+  }
+  .quote-externo {
+    max-width: 300px;
+  }
+
+  .quote-externo p {
+    font-size: 13px;
+  }
+
+  .portfolio_lista_pc {
+    display: none;
+  }
+
+  .portfolio_lista_mobile {
+    display: block;
+    padding-left: 10px;
+  }
+
+  .portfolio_seo p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .portfolio_aps p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .logotipos_websites li {
+    padding: 15px 0 10px 50px;
+    width: 85%;
+  }
+
+  .contato {
+    padding-top: 20px;
+    margin-bottom: -200px;
+  }
+
+  .contato_form input {
+    width: 300px;
+  }
+
+  .contato_form textarea {
+    width: 300px;
+  }
+
+  /* javascript */
+  .js [data-slide-nav] button {
+    display: none;
+  }
+}

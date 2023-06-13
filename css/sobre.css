@@ -1,0 +1,127 @@
+.quote-externo {
+  max-width: 780px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.quote {
+  width: 100%;
+  height: 240px;
+  background: linear-gradient(to right, #000000, #1c1c1c) no-repeat center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.quote p:before,
+.quote p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #f2f2f2;
+  margin: 15px auto;
+}
+
+.sobre {
+  width: 100%;
+  background: linear-gradient(to right, #000000, #2b2b2b);
+  text-align: center;
+  padding: 40px 0;
+  height: 680px;
+  margin-top: 230px;
+  padding-top: 70px;
+}
+
+.sobre .sobre_mim img {
+  margin: 20px auto;
+}
+
+.sobre h2 {
+  color: #f2f2f2;
+}
+
+.sobre p {
+  color: #f2f2f2;
+  max-width: 900px;
+  text-align: justify;
+}
+
+.sobre_mim img {
+  margin: 25px;
+  border: 3px solid #ffd700;
+  border-radius: 250px;
+}
+
+.habilidades_container {
+  width: 100%;
+  background: #f2f2f2;
+  padding: 40px 0;
+  /* margin-bottom: 30px; */
+}
+
+.habilidades_container p {
+  color: #1c1c1c;
+  line-height: 1.5em;
+}
+
+.habilidades_container h2 {
+  color: #1c1c1c;
+  font-weight: normal;
+}
+
+.habilidades_container ul li {
+  margin: 10px 0;
+}
+
+.barra {
+  background: rgba(212, 212, 212, 0.808);
+  display: block;
+  height: 15px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.barra span {
+  height: 15px;
+  float: left;
+  background: #ffd700;
+}
+
+.photoshop {
+  width: 90%;
+}
+.illustrator {
+  width: 75%;
+}
+
+.indesign {
+  width: 50%;
+}
+
+.maya {
+  width: 80%;
+}
+
+.zbrush {
+  width: 65%;
+}
+
+.coat3d {
+  width: 65%;
+}
+
+.unity3d {
+  width: 50%;
+}
+
+.html {
+  width: 30%;
+}
+
+.css {
+  width: 30%;
+}
+
+.javascript {
+  width: 10%;
+}
